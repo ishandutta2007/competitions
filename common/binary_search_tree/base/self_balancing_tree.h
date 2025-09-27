@@ -5,6 +5,7 @@
 
 namespace bst {
 namespace base {
+
 /**
  * @brief Base class for self-balancing binary search tree implementations.
  *
@@ -495,5 +496,6 @@ class SelfBalancingTree : public BaseTree<NodesManager, Derived> {
     }
   }
 };
+
 }  // namespace base
 }  // namespace bst

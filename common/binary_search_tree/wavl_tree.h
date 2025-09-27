@@ -15,6 +15,7 @@
 #include <tuple>
 
 namespace bst {
+
 /**
  * @brief WAVL tree implementation with weak AVL balancing.
  *
@@ -416,4 +417,5 @@ class WAVLTree
                        : join3_base_impl(l, m1, r);
   }
 };
+
 }  // namespace bst

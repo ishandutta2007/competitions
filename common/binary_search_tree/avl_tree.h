@@ -13,6 +13,7 @@
 #include <tuple>
 
 namespace bst {
+
 /**
  * @brief AVL tree implementation with automatic height balancing.
  *
@@ -201,4 +202,5 @@ class AVLTree
                        : SBTree::join3_base_impl(l, m1, r);
   }
 };
+
 }  // namespace bst

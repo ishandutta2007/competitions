@@ -8,6 +8,7 @@
 
 namespace bst {
 namespace base {
+
 /**
  * @brief Base class for binary search tree implementations.
  *
@@ -630,5 +631,6 @@ class BaseTree {
    */
   NodesManagerType nodes_manager_;
 };
+
 }  // namespace base
 }  // namespace bst

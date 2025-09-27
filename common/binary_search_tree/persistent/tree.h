@@ -4,6 +4,7 @@
 
 namespace bst {
 namespace persistent {
+
 template <class TTNodesManager, class TTMe>
 class Tree : public bst::base::ExtendedTree<TTNodesManager, TTMe> {
  public:
@@ -37,5 +38,6 @@ class Tree : public bst::base::ExtendedTree<TTNodesManager, TTMe> {
     }
   }
 };
+
 }  // namespace persistent
 }  // namespace bst

@@ -38,5 +38,6 @@ template <typename TNode>
   }
   return node;
 }
+
 }  // namespace subtree_data
 }  // namespace bst

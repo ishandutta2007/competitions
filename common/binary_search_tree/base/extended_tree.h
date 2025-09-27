@@ -9,6 +9,7 @@
 
 namespace bst {
 namespace base {
+
 /**
  * @brief Extended base class for binary search tree operations.
  *
@@ -202,5 +203,6 @@ class ExtendedTree : public BaseTree<NodesManager, Derived> {
     }
   }
 };
+
 }  // namespace base
 }  // namespace bst

@@ -1199,4 +1199,5 @@ class RedBlackTree
     }
   }
 };
+
 }  // namespace bst

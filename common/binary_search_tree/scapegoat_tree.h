@@ -9,6 +9,7 @@
 #include "common/memory/contiguous_nodes_manager.h"
 
 namespace bst {
+
 /**
  * @brief Scapegoat tree implementation with size-based balancing.
  *
@@ -194,4 +195,5 @@ class ScapegoatTree
                           : join3_right_impl(l, m1, r, lsize);
   }
 };
+
 }  // namespace bst

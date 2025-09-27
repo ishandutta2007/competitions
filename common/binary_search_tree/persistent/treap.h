@@ -15,6 +15,7 @@
 
 namespace bst {
 namespace persistent {
+
 template <bool use_key, bool use_parent, class TData,
           class TAggregatorsTuple = std::tuple<subtree_data::Size>,
           class TDeferredTuple = std::tuple<>, class TKey = int64_t>
@@ -147,5 +148,6 @@ class Treap
     return root;
   }
 };
+
 }  // namespace persistent
 }  // namespace bst
